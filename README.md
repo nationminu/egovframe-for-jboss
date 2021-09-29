@@ -8,7 +8,7 @@ JBoss EAP 에서 압축된 형태의 애플리케이션을 배포할 경우 VFS 
 
 JBoss EAP 에서 압축된 상태로 배포할 경우 “globals.properties” 를 찾지 못하는 아래와 같은 에러가 한다.
 
-> 전자정부프레임워크 게시판 Q&A
+> 전자정부프레임워크 게시판 Q&A <br>
 > https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000016651
 
 # Unix 환경에서 Bean 초기화 문제
@@ -34,9 +34,9 @@ rootContext.start();
 
 ```
 
-> 전자정부프레임워크 게시판 Q&A
-> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000017326
-> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000017320
+> 전자정부프레임워크 게시판 Q&A <br>
+> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000017326 <br>
+> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000017320 <br>
 
 # 국제화 환경 설정
 
@@ -65,7 +65,7 @@ SpringFramework 에서 제공하는 ReloadableResourceBundleMessageSource 변경
 </bean>
 ```
 
-> 전자정부프레임워크 게시판 Q&A
-> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000018392
-> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000018383
+> 전자정부프레임워크 게시판 Q&A <br>
+> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000018392 <br>
+> https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000018383 <br>
 > https://www.egovframe.go.kr/home/qainfo/qainfoRead.do?menuNo=69&qaId=QA_00000000000017886
