@@ -52,8 +52,8 @@ SpringFramework 에서 제공하는 ReloadableResourceBundleMessageSource 변경
 	<value>classpath:/egovframework/message/com/cmm/err/message-common</value>
 	<value>classpath:/egovframework/message/com/cmm/message-common</value> 
 	<value>classpath:/egovframework/message/com/message-common</value> 
-  ...
-  <value>classpath:/egovframework/rte/fdl/idgnr/messages/idgnr</value>
+  	...
+  	<value>classpath:/egovframework/rte/fdl/idgnr/messages/idgnr</value>
 	<value>classpath:/egovframework/rte/fdl/property/messages/properties</value>
 	<value>classpath:/egovframework/egovProps/globals</value>
 </list>
