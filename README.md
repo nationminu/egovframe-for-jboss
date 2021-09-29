@@ -19,7 +19,7 @@ Unix 환경에서 애플리케이션 배포시 인증 부분에서 에러가 발
 전자정부프레임워크 소스중 EgovWebApplicationInitializer.java의 xml 로딩 부분의 수정이 필요하다.
 
 - egovframework.com.cmm.config.EgovWebApplicationInitializer.java
-```
+```java
 //-------------------------------------------------------------
 // Spring ServletContextListener 설정
 //-------------------------------------------------------------
@@ -45,7 +45,7 @@ rootContext.start();
 EgovWildcardReloadableResourceBundleMessageSource 를 사용할 경우 정상적으로 파일을 로딩하지 못해서 발생하는 문제가 발생한다.
 SpringFramework 에서 제공하는 ReloadableResourceBundleMessageSource 변경하고  “WEB-INF/classes/egovframework/message/” 아래 조건에 맞는 리스트는 모두 기록하면 국제화 설정을 사용할 수 있다.
 
-```
+```xml
 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 <property name="basenames">
 <list>
